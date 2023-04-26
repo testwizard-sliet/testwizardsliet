@@ -33,7 +33,7 @@ session_start();
 
       <nav class="navbar">
          <div id="close-navbar" class="fas fa-times"></div>
-         <a href="home.php">Home</a>
+         <a href="index.php">Home</a>
          <a href="subject.php">Subject</a>
          <a href="leet.php">Leet</a>
          <a href="about.php">About</a>
@@ -107,7 +107,7 @@ session_start();
 
    <section class="heading-link">
       <h3>contact us</h3>
-      <p> <a href="home.php">home</a> / contact </p>
+      <p> <a href="index.php">home</a> / contact </p>
    </section>
 
    <!-- contact section starts  -->
@@ -162,7 +162,7 @@ session_start();
 
          <div class="box">
             <h3 class="h3-link">quick links</h3>
-            <a href="home.php" class="link"> &#x21aa; Home</a>
+            <a href="index.php" class="link"> &#x21aa; Home</a>
             <a href="subject.php" class="link"> &#x21aa; Subject</a>
             <a href="leet.php" class="link"> &#x21aa; Leet</a>
             <a href="about.php" class="link"> &#x21aa; About</a>

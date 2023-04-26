@@ -18,14 +18,14 @@ if(isset($_POST['login'])){
                 #if password matched
                 $_SESSION['logged_in']=true;
                 $_SESSION['username']=$result_fetch['username'];
-                header("location: home.php");
+                header("locatioindex.php");
             }
             else
             {
                 #if incorrect password
                 echo "<script>
                 alert('Incorrect Password');
-                window.location.href = 'home.php';
+                window.location.href = 'index.php';
                 </script>";
             }
         }
@@ -33,7 +33,7 @@ if(isset($_POST['login'])){
         {
             echo "<script>
             alert('Email or Username not Registered.');
-            window.location.href = 'home.php';
+            window.location.href = 'index.php';
             </script>";
         }
     }
@@ -41,7 +41,7 @@ if(isset($_POST['login'])){
     {
         echo "<script>
         alert('Cannot Run Query');
-        window.location.href = 'home.php';
+        window.location.href = 'index.php';
         </script>";
     }
 }
@@ -60,14 +60,14 @@ if (isset($_POST['register'])) {
                 #error for username already taken
                 echo "<script>
                 alert('$result_fetch[username] - Username already taken');
-                window.location.href = 'home.php';
+                window.location.href index.php';
                 </script>";
             }
             else {
                 #error for email already registered
                 echo "<script>
                 alert('$result_fetch[email] - Email already registered');
-                window.location.href = 'home.php';
+                window.location.href = 'index.php';
                 </script>";
             }
         } else # it will executed if no one has taken the same username or email before
@@ -79,21 +79,21 @@ if (isset($_POST['register'])) {
                 # if data inserted successfully
                 echo "<script>
                 alert('Registration Successful');
-                window.location.href = 'home.php';
+                window.location.href = 'index.php';
                 </script>";
             }
             else{
                 # if data cannot be inserted
                 echo "<script>
                 alert('Cannot Run Query');
-                window.location.href = 'home.php';
+                window.location.href = 'index.php';
                 </script>";
             }
         }
     } else {
         echo "<script>
         alert('Cannot Run Query');
-        window.location.href = 'home.php';
+        window.location.href = 'index.php';
         </script>";
     }
 }

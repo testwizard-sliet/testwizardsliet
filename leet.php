@@ -33,7 +33,7 @@ session_start();
 
       <nav class="navbar">
          <div id="close-navbar" class="fas fa-times"></div>
-         <a href="home.php">Home</a>
+         <a href="index.php">Home</a>
          <a href="subject.php">Subject</a>
          <a href="#">Leet</a>
          <a href="about.php">About</a>
@@ -107,7 +107,7 @@ session_start();
 
    <section class="heading-link">
       <h3>LEET</h3>
-      <p> <a href="home.php">home</a> / LEET </p>
+      <p> <a href="index.php">home</a> / LEET </p>
    </section>
 
    <!-- leet section starts  -->
