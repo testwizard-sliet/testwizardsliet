@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    background: #f0fdfa;
+    background-size: cover;
+    /* background: #6190E8; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #A7BFE8, #6190E8); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #A7BFE8, #6190E8); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+/* scroll-bar designing starts */
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #0eb582;
+}
+
+/* scroll-bar designing ends */
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+    font-weight: bolder;
+}
+
+.header .logo i {
+    color: #0eb582;
+}
+
+.header .navbar {
+    position: relative;
+}
+
+.header .navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-right: 1.5rem;
+    text-transform: capitalize;
+    color: #444;
+}
+
+/* .buttons {
+    height: 300px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.buttons a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+} */
+
+section {
+    background: #fff;
+    padding: 5rem 10%;
+}
+
+section h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.heading-link {
+    text-align: center;
+    background: url(./images/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-link h3 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    color: #444;
+}
+
+.heading-link p {
+    font-size: 2rem;
+    line-height: 2;
+    color: #777;
+}
+
+.heading-link p a {
+    color: #0eb582;
+}
+
+.heading-link p a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer code starts here */
+
+.footer {
+    background: #f0fdfa;
+}
+
+.footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i {
+    color: #0eb582;
+}
+
+.footer .box-container .box .share {
+    margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #0eb582;
+    color: #fff;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+    background-color: #444;
+}
+
+.footer .box-container .box .p-box {
+    font-size: 1.7rem;
+}
+
+.footer .box-container .box .p-contact {
+    font-size: 1.7rem;
+}
+
+.footer .box-container .box .link {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #777;
+    padding: .4rem 0;
+    display: block;
+}
+
+.footer .box-container .box .link:hover {
+    color: #0eb582;
+    text-decoration: underline;
+}
+
+.footer .box-container .box p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #777;
+    padding: 1rem 0;
+}
+
+.footer .box-container .box .email {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    border: 0.1rem solid #0eb582;
+    margin-bottom: 1rem;
+}
+
+.footer .credit {
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #444;
+    border-top: 0.1rem solid #0eb582;
+}
+
+.footer .credit span {
+    color: #0eb582;
+}
+
+/* responsive code starts here */
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 2rem 5%;
+    }
+
+    section {
+        padding: 3rem 5%;
+    }
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 2rem;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header .icons {
+        display: block;
+    }
+
+    .header .navbar {
+        position: fixed;
+        top: 0;
+        right: -105%;
+        width: 22rem;
+        background: #fff;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        z-index: 1200;
+    }
+
+    .header .navbar a {
+        display: block;
+        margin: 1rem 0;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .home .slide .content h3 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+}

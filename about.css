@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background: #eff0f4; */
+}
+
+/* teachers section code  */
+.about-section {
+    margin: 0;
+    padding: 0;
+}
+
+.about-section .heading {
+    align-items: center;
+    text-align: center;
+}
+
+.content .us-section {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2px;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+/* about website section starts from here  */
+
+.content .about-website-sec {
+    display: flex;
+    width: 100%;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .about-website-sec .about-website {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    cursor: pointer;
+}
+
+.content .about-website-sec .about-website img {
+    margin-bottom: .7rem;
+    height: 250px;
+    width: auto;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
+
+.content .about-website-sec .about-website h3 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: .5rem 0;
+}
+
+.content .about-website-sec .about-website p.skill-site {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #777;
+}
+
+.content .about-website-sec .about-website p.about-site {
+    text-align: justify;
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #777;
+}
+
+.content .about-website-sec .about-website .share {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.content .about-website-sec .about-website .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #0eb582;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.content .about-website-sec .about-website .share a:hover {
+    background-color: #444;
+}
+
+/* about testwizard site box styling is done here  */
+
+.content .us-section .box-us-section {
+    width: 36rem;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    cursor: pointer;
+}
+
+.content .us-section .box-us-section img {
+    margin-bottom: .7rem;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* height: 25rem; */
+    /* width: 100%; */
+}
+
+.content .us-section .box-us-section h3 {
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: .5rem 0;
+}
+
+.content .us-section .box-us-section p {
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #777;
+}
+
+.content .us-section .box-us-section .share {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.content .us-section .box-us-section .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #0eb582;
+    color: #fff;
+    /* margin-right: .3rem; */
+    text-align: center;
+    align-items: center;
+}
+
+
+.content .us-section .box-us-section .share a:hover {
+    background-color: #444;
+}
+
+.content .us-section .box-us-section button.box-button {
+    background-color: #0eb582;
+    color: #fff;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+    font-size: 1.8rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: capitalize;
+    /* background: transparent;  */
+    /* color: #000;  */
+    /* border: 0.1rem solid #0eb582; */
+}
+
+.content .us-section .box-us-section button.box-button a {
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.content .us-section .box-us-section button.box-button:hover {
+    background-color: #444;
+}
+
+
+.container-about {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px;
+    /* background: yellowgreen; */
+}
+
+.container-about .box-about {
+    padding: 50px 30px;
+    overflow: hidden;
+    /* background: pink; */
+}
+
+/* .image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: .8;
+    border: 3px solid #fff;
+} */
+
+@media (max-width: 768px) {
+    section.us-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2px;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content .us-section .box-us-section img {
+        margin-bottom: .7rem;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        /* height: 25rem; */
+        /* width: 100%; */
+    }
+
+    .content .about-website-sec .about-website img {
+        margin-bottom: .7rem;
+        height: 175px;
+        width: auto;
+        object-fit: cover;
+    }
+}

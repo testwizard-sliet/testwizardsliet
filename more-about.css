@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    /* background: #eff0f4; */
+}
+
+/* teachers section code  */
+.about-section {
+    margin: 0;
+    padding: 0;
+}
+
+.about-section .heading {
+    align-items: center;
+    text-align: center;
+}
+
+.content .us-section {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    padding: 2px;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .box-us-section {
+    width: 130rem;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 2rem;
+    text-align: center;
+    border: 0.1rem solid #0eb582;
+    background: #f0fdfa;
+    cursor: pointer;
+}
+
+.content .box-us-section img {
+    margin-bottom: .7rem;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.content .box-us-section h3 {
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    color: #444;
+    padding: .5rem 0;
+}
+
+.content .box-us-section p.skill {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2;
+    color: #777;
+}
+
+.content .box-us-section p.about-me {
+    text-align: justify;
+    font-size: 1.7rem;
+    line-height: 2;
+    color: #777;
+}
+
+.content .box-us-section .share {
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.content .box-us-section .share a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.5rem;
+    font-size: 1.7rem;
+    background-color: #0eb582;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+
+.content .box-us-section .share a:hover {
+    background-color: #444;
+}
+
+.content .box-us-section button.box-button {
+    margin-top: 1rem; 
+    padding: .5rem 2rem; 
+    font-size: 1.8rem; 
+    border: 0.1rem solid #0eb582; 
+    border-radius: 8px; 
+    background: transparent; 
+    color: #fff; 
+    cursor: pointer; 
+    text-transform: capitalize;
+}
+
+.content .box-us-section button.box-button:hover {
+    background: #0eb582;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+
+    .content .box-us-section {
+        width: 50rem;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        padding: 1rem 1rem;
+        margin: auto;
+        border: 0.1rem solid #0eb582;
+        background: #f0fdfa;
+        cursor: pointer;
+    }
+
+    .content .box-us-section h3 {
+        font-size: 2.8rem;
+        padding: .5rem 0;
+        font-weight: 700;
+        color: #242424;
+    }
+    
+    .content .box-us-section p.skill {
+        font-size: 2.1rem;
+        line-height: 2;
+        color: #302e2e;
+        font-weight: 500;
+    }
+    
+    .content .box-us-section p.about-me {
+        margin: auto;
+        padding: auto;
+        font-size: 1.9rem;
+        line-height: 1.9;
+        color: #353030;
+        font-weight: 500;
+    }
+
+}
